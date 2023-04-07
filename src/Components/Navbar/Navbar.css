@@ -6,7 +6,7 @@
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    background-color: #111;
+    background-color: rgba(0,0,0,0.5)
 }
 .logo{
     position: fixed;
@@ -18,4 +18,22 @@
     right: 20px;
     width: 30px;
     border-radius: 50%;
+}
+.search{
+    position: fixed;
+    right: 80px;
+    width: 25px;
+    display: flex;
+    
+}
+.nav-detail{
+    color: #eeee;
+    position: absolute;
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+}
+.nav-names{
+    margin-right: 30px;
+    cursor: pointer;
 }
